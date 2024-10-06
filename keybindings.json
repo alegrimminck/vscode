@@ -16,4 +16,23 @@
     "key": "alt+shift+left",
     "command": "cursorHomeSelect"
   },
+  {
+    "key": "alt+backspace",
+    "command": "deleteAllLeft"
+  },
+  {
+    "key": "enter",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "cursorTop",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "alt+down",
+    "command": "cursorBottom",
+    "when": "editorTextFocus",
+  }
 ]
